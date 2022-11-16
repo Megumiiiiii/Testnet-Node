@@ -1,3 +1,7 @@
+---
+description: Guide Aleo Testnet
+---
+
 # Aleo
 
 \
@@ -11,19 +15,25 @@
 wget -O aleo.sh https://raw.githubusercontent.com/Megumiiiiii/Aleo/main/aleo.sh && chmod +x aleo.sh && ./aleo.sh
 ```
 
-> Jika muncul pilihan (y/N) ketik y lalu enterJika muncul pilihan seperti ini, ketik 1 lalu enter​
-
-Yak, disini lama<img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2Fc93QCYwgS8dVr0jP4W1z%2Fncvbn.png?alt=media&#x26;token=a752f8c1-6785-49fb-81c1-1cf32281999f" alt="" data-size="line">Jangan lupa **BACKUP** **SEMUA** data(PrivKey dan teman2nya) yang muncul setelah install
-
-<figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2FqJaclnc7nVaCiqtZbXLC%2FScreenshot_62.png?alt=media&#x26;token=b82245a0-b9a5-470c-8b4a-1623928de49f" alt=""><figcaption></figcaption></figure>
+Jika muncul pilihan (y/N) ketik y lalu enterJika muncul pilihan seperti ini, ketik 1 lalu enter​
 
 <figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2FjnJySkXwENZR5cDwtaYo%2FScreenshot_52.png?alt=media&#x26;token=29091a80-f298-4a3b-bf84-e9261100f59a" alt=""><figcaption></figcaption></figure>
 
+Yak, disini lama
+
+<figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2FqJaclnc7nVaCiqtZbXLC%2FScreenshot_62.png?alt=media&#x26;token=b82245a0-b9a5-470c-8b4a-1623928de49f" alt=""><figcaption></figcaption></figure>
+
+<img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2Fc93QCYwgS8dVr0jP4W1z%2Fncvbn.png?alt=media&#x26;token=a752f8c1-6785-49fb-81c1-1cf32281999f" alt="" data-size="line">Jangan lupa **BACKUP** **SEMUA** data(PrivKey dan teman2nya) yang muncul setelah install
+
 #### Setelah selesai download dan install, jalankan <a href="#setelah-selesai-download-dan-install-jalankan" id="setelah-selesai-download-dan-install-jalankan"></a>
 
-cd snarkOSscreen -S aleo./run-prover.sh
+```
+cd snarkOS
+screen -S aleo
+./run-prover.sh
+```
 
-> Masukan Private Key yang tadi
+Masukan Private Key yang tadi
 
 <figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2FOlQzWK56PKahu50VMerI%2FScreenshot_63.png?alt=media&#x26;token=dd4bf099-6b3b-4cce-ab4f-0fad99224f2f" alt=""><figcaption></figcaption></figure>
 
@@ -36,4 +46,13 @@ cd snarkOSscreen -S aleo./run-prover.sh
 
 #### Jika ingin uninstall Node <a href="#jika-ingin-uninstall-node" id="jika-ingin-uninstall-node"></a>
 
-cd \~/snarkOSrustup self uninstallcdrm -f aleo.shrm -rf snarkOS
+```
+cd ~/snarkOS
+rustup self uninstall
+```
+
+```
+cd
+rm -f aleo.sh
+rm -rf snarkOS
+```
