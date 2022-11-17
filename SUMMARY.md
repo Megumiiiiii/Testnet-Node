@@ -5,5 +5,6 @@
 * [Aleo](aleo.md)
 * [MVC](page-2.md)
 * [Gitopia](page-3.md)
-* [Exorde](exorde.md)
+* [Exorde](page-5.md)
 * [Newrl](page-4.md)
+* [Loyal](loyal.md)
