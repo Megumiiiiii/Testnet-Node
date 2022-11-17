@@ -1,3 +1,7 @@
+---
+description: Guide Exorde Testnet
+---
+
 # Exorde
 
 ## Cara Install menggunakan Docker

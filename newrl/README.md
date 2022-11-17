@@ -1,8 +1,12 @@
+---
+description: Guide Newrl Mainnet
+---
+
 # Newrl
 
 
 
-<figure><img src=".gitbook/assets/NEWWRL.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/NEWWRL.png" alt=""><figcaption></figcaption></figure>
 
 ## Setup
 

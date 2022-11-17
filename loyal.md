@@ -1,3 +1,7 @@
+---
+description: Guide Loyal Testnet
+---
+
 # Loyal
 
 ## Loyal
