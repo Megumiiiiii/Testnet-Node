@@ -9,3 +9,4 @@
 * [Newrl](newrl/README.md)
   * [Cara Update](newrl/cara-update.md)
 * [Loyal](loyal.md)
+* [ChainFLIP](chainflip.md)
