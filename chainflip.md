@@ -395,3 +395,53 @@ sudo chainflip-cli \
 ### OK!
 
 <figure><img src=".gitbook/assets/selesaiiflipp.png" alt=""><figcaption></figcaption></figure>
+
+### Tambahan agar file logs terpisah sesuai hari
+
+**a. Cek logrotate**
+
+```
+logrotate
+```
+
+Jika sudah ada maka seperti ini
+
+```
+logrotate 3.14.0 - Copyright (C) 1995-2001 Red Hat, Inc.
+This may be freely redistributed under the terms of the GNU General Public License
+
+Usage: logrotate [-dfv?] [-d|--debug] [-f|--force] [-m|--mail=command]
+        [-s|--state=statefile] [-v|--verbose] [-l|--log=logfile] [--version]
+        [-?|--help] [--usage] [OPTION...] <configfile>
+```
+
+**b. Konfigurasi chainflip ke logrotate**
+
+```
+sudo nano /etc/logrotate.d/chainflip
+```
+
+Isi dengan ini
+
+```
+/var/log/chainflip-*.log {
+  rotate 7
+  daily
+  dateext
+  dateformat -%Y-%m-%d
+  missingok
+  notifempty
+  copytruncate
+  nocompress
+}
+```
+
+Simpan
+
+**c. Berikan izin ke root**
+
+```
+sudo chmod 644 /etc/logrotate.d/chainflip
+sudo chown root.root /etc/logrotate.d/chainflip
+```
+
