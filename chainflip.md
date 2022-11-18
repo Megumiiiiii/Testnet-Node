@@ -158,7 +158,7 @@ Secret phrase:       never gonna give you up let you down make you cry round aro
 **e. Simpan signin\_key**
 
 ```html
-SECRET_SEED=<SECRET_SEED_MU>
+SECRET_SEED=<SECRET_SEED Tanpa 0x>
 ```
 
 ```
