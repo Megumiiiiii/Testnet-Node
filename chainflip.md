@@ -49,7 +49,6 @@ sudo passwd flip
 
 ```
 mkdir /home/flip/.ssh
-sudo cp /root/.ssh/authorized_keys /home/flip/.ssh/authorized_keys
 sudo chown -R flip:flip /home/flip/.ssh/
 sudo chmod 0700 /home/flip/.ssh/
 ```
