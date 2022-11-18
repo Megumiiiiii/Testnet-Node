@@ -55,7 +55,7 @@ sudo chmod 0700 /home/flip/.ssh/
 
 * Untuk login menggunakan user `flip`
 
-```
+```html
 ssh flip@<IP.VPS.MU>
 ```
 
@@ -125,7 +125,7 @@ sudo mkdir /etc/chainflip/keys
 <mark style="color:red;">**HARUS**</mark> Private Key dari Metamask
 {% endhint %}
 
-```
+```html
 echo -n "<PRIVATE_KEY_MU>" |  sudo tee /etc/chainflip/keys/ethereum_key_file
 ```
 
@@ -157,8 +157,8 @@ Secret phrase:       XXX
 
 **e. Simpan signin\_key**
 
-```
-SECRET_SEED=<SECRET SEED MU>
+```html
+SECRET_SEED=<SECRET_SEED_MU>
 ```
 
 ```
@@ -230,7 +230,7 @@ sudo nano /etc/chainflip/config/Default.toml
 
 &#x20;  Isi menggunakan ini
 
-```
+```markup
 # Default configurations for the CFE
 [node_p2p]
 node_key_file = "/etc/chainflip/keys/node_key_file"
@@ -386,7 +386,7 @@ sudo chainflip-cli \
 
 **j. Ubah nama**
 
-```
+```html
 sudo chainflip-cli \
     --config-path /etc/chainflip/config/Default.toml \
     vanity-name <NAMA_MU>
