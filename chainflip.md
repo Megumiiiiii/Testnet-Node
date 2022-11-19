@@ -325,6 +325,14 @@ sudo systemctl enable chainflip-engine
 
 <figure><img src=".gitbook/assets/enableflipengine.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+Setiap melakukan perubahan pada `Default.toml` harus jalankan :&#x20;
+
+```
+sudo systemctl restart chainflip-engine
+```
+{% endhint %}
+
 **Cek logs engine**
 
 ```
