@@ -78,7 +78,7 @@ cd NamaRepo
 
 ```
 git config --global user.email "EmailMU"
-git config --global user.email "NamaAkunMU"
+git config --global user.name "NamaAkunMU"
 ```
 
 Cek
