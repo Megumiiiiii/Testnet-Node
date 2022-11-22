@@ -4,6 +4,12 @@
 
 <figure><img src=".gitbook/assets/STRAKNNNN.jpg" alt=""><figcaption></figcaption></figure>
 
+### Minimum Requirements
+
+| CPU | RAM |  Storage  |
+| :-: | :-: | :-------: |
+|  4  | 8GB | SSD 100GB |
+
 ### Official Link
 
 * [Discord](http://starknet.io/discord)
