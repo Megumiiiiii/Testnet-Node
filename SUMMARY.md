@@ -13,3 +13,6 @@
 * [Loyal](loyal.md)
 * [ChainFLIP](chainflip.md)
 * [Starknet](starknet.md)
+* [Deinfra](deinfra/README.md)
+  * [Prepare Setelah Mendapat Personal Token](deinfra/prepare-setelah-mendapat-personal-token.md)
+  * [Mulai Setelah Mendapat Chain Token](deinfra/mulai-setelah-mendapat-chain-token.md)
