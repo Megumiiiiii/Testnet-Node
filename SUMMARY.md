@@ -3,7 +3,6 @@
 * [Dashboard](README.md)
 * [Q-Blockchain](q-blockchain.md)
 * [Aleo](aleo.md)
-* [MVC](mvc.md)
 * [Gitopia](gitopia/README.md)
   * [Membuat Repo dari 0](gitopia/membuat-repo-dari-0.md)
   * [Menghubungkan Repo di Github dengan Gitopia](gitopia/menghubungkan-repo-di-github-dengan-gitopia.md)
@@ -16,3 +15,4 @@
 * [Deinfra](deinfra/README.md)
   * [Prepare Setelah Mendapat Personal Token](deinfra/prepare-setelah-mendapat-personal-token.md)
   * [Mulai Setelah Mendapat Chain Token](deinfra/mulai-setelah-mendapat-chain-token.md)
+* [MVC](mvc.md)
