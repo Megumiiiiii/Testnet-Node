@@ -118,7 +118,7 @@ screen -S newrl
 ```
 
 ```
-scripts/start.sh mainnet
+scripts/start.sh mainnet --fullnode
 ```
 
 Untuk keluar dari sesi logs tekan `CTRL+A+D`

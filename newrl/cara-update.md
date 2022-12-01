@@ -22,5 +22,5 @@ screen -S newrl
 ```
 
 ```
-scripts/start.sh mainnet
+scripts/start.sh mainnet --fullnode
 ```
