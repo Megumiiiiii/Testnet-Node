@@ -116,7 +116,7 @@ nano docker-compose.yaml
 
 > Contoh:
 
-<figure><img src=".gitbook/assets/344.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/344_2.png" alt=""><figcaption></figcaption></figure>
 
 #### Jalankan NODE <a href="#jalankan-node" id="jalankan-node"></a>
 
