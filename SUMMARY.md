@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Dashboard](README.md)
+* [Homepage](README.md)
 * [Q-Blockchain](q-blockchain.md)
 * [Aleo](aleo.md)
 * [Gitopia](gitopia/README.md)
@@ -13,6 +13,4 @@
 * [ChainFLIP](chainflip.md)
 * [Starknet](starknet.md)
 * [Deinfra](deinfra/README.md)
-  * [Prepare Setelah Mendapat Personal Token](deinfra/prepare-setelah-mendapat-personal-token.md)
-  * [Mulai Setelah Mendapat Chain Token](deinfra/mulai-setelah-mendapat-chain-token.md)
-* [MVC](mvc.md)
+  * [Setelah Mendapat Personal Token](deinfra/setelah-mendapat-personal-token.md)
